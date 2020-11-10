@@ -1,0 +1,119 @@
+section{
+    overflow: hidden;
+}
+
+.navbar{
+    position: relative;
+    z-index: 2;
+}
+
+.judul{
+    background-color: #F9FAFB;
+}
+
+.black{
+    color: black !important; 
+}
+.white{
+    color: white !important; 
+}
+
+h1{
+    font-size: 3rem;
+}
+h6{
+    font-size: 0.8rem;
+}
+.judultext{
+    position: relative;
+    top: 12.5rem;
+}
+
+.imghotel{
+    position: absolute;
+    width: 45rem;
+}
+
+.body1{
+    position: relative;
+    height: 55rem;
+    top: -70px;
+    z-index: 1;
+}
+
+.subjudul{
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+
+.card {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+  
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.btn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: .575rem 1.75rem;
+    border-radius: 1.5rem;
+}
+
+.robotoBlack{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.robotoBold{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.robotoMedium{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.poppinBold{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.poppinReg{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.blue{
+    color: #179BFF;
+}
+
+/* Reserve */
+
+ .reserveSec .container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #F9FAFB;
+    padding: 50px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    overflow: hidden;
+    height: 50rem;
+
+ }
+
+ .imgres{
+     top: -60px;
+     position: absolute;
+     width: 40rem;
+
+ }
+
+ .logres{
+     position: absolute;
+     right: 3vw;
+     z-index: 2;
+     width: 20vw;
+ }
